@@ -28,7 +28,5 @@ def checkPalindrome(inputString):
         return False
 
 
-checkPalindrome("elle")
-
 
 

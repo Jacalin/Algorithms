@@ -27,4 +27,3 @@ def hash_pyramid():
 
             print (((" " * ((n - (i-1)) - 1)) + ("#" * i) ) , " " , ("#" * i) )
 
-hash_pyramid()

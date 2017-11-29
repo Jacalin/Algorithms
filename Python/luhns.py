@@ -47,4 +47,3 @@ def luhns(cc):
         print("Invalid")
 
 
-luhns()
