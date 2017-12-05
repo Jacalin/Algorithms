@@ -21,6 +21,3 @@ function destroyer(arr) {
   return result;
 
 }
-
-
-console.log(destroyer([1, 2, 3, 1, 2, 3], 2, 3));
