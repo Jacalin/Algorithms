@@ -27,7 +27,7 @@ function getIndexToIns(arr, num) {
       index.push(i);
   }
 
-  // slice all vals in list except for the last. 
+  // slice all vals in list except for the last.
   var result = index.slice(-1);
 
   // return index
