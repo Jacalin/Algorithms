@@ -1,3 +1,5 @@
+// terrible solution //
+
 function convertToRoman(num) {
 
   var nums = {
@@ -90,17 +92,11 @@ function convertToRoman(num) {
 
    }
 
-  console.log(finalArr);
 
   var romans = finalArr.reverse().join("");
-
-  console.log(romans)
 
   return romans;
 
 }
 
 convertToRoman(1004);
-
-//.concat(obj[numConvert3[0]])
-//.repeat(numConvert3Rev[i]));
