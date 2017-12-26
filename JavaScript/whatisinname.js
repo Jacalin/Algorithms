@@ -4,13 +4,9 @@ function whatIsInAName(collection, source) {
 
   var arr = [];
 
-
   for(var i in collection){
 
     var count = 0
-
-
-    //console.log(i);
 
     for(var j in Object.keys(source)){
       //console.log(collection[i])
@@ -20,12 +16,12 @@ function whatIsInAName(collection, source) {
       //console.log(Object.values(source)[j] === Object.values(collection)[i]);
 
       if(collection[i].hasOwnProperty(Object.keys(source)[j]) && (Object.values(collection[i]).indexOf(Object.values(source)[j]) > -1)) {
-        console.log("yes", Object.values(collection)[i] , Object.keys(source)[j]);
+        //console.log("yes", Object.values(collection)[i] , Object.keys(source)[j]);
         count += 1
       }else{
-        console.log("no",Object.values(collection)[i] , Object.keys(source)[j])
+        //console.log("no",Object.values(collection)[i] , Object.keys(source)[j])
       }
-       console.log(count);
+       //console.log(count);
 
       if(count >= Object.keys(source).length){
         arr.push(collection[i]);
@@ -34,11 +30,8 @@ function whatIsInAName(collection, source) {
         count = 0
       }
     }
-    //return(arr);
-    //console.log(arr);
   }
-
-  console.log(arr);
+  //console.log(arr);
   return(arr);
 
 }
